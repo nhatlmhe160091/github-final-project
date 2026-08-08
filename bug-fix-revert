@@ -13,7 +13,7 @@ Actual terminal/API output:
     "label": "nhatlmhe160091:bug-fix-typo",
     "ref": "bug-fix-typo",
     "sha": "1282970e8bb3df28a44476bd62bac89faa443967",
-    "repo": "nhatlmhe160091/mcino-Introduction-to-Git-and-GitHub",
+    "repo": "nhatlmhe160091/github-final-project",
     "fork": true,
     "owner": "nhatlmhe160091"
   },
