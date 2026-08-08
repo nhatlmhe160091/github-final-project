@@ -1,0 +1,10 @@
+Command executed:
+curl -sS https://api.github.com/repos/nhatlmhe160091/mcino-Introduction-to-Git-and-GitHub | jq '{full_name, fork, parent: .parent.full_name, source: .source.full_name}'
+
+Actual terminal/API output:
+{
+  "full_name": "nhatlmhe160091/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+  "source": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}

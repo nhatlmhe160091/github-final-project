@@ -1,0 +1,25 @@
+Command executed:
+curl -sS https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10015 | jq '{number, state, title, html_url, draft, merged: .merged_at, head: {label: .head.label, ref: .head.ref, sha: .head.sha, repo: .head.repo.full_name, fork: .head.repo.fork, owner: .head.repo.owner.login}, base: {label: .base.label, ref: .base.ref, repo: .base.repo.full_name}}'
+
+Actual terminal/API output:
+{
+  "number": 10015,
+  "state": "closed",
+  "title": "Fix typo in simple interest script",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/10015",
+  "draft": false,
+  "merged": null,
+  "head": {
+    "label": "nhatlmhe160091:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "sha": "1282970e8bb3df28a44476bd62bac89faa443967",
+    "repo": "nhatlmhe160091/mcino-Introduction-to-Git-and-GitHub",
+    "fork": true,
+    "owner": "nhatlmhe160091"
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "repo": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
